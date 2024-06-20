@@ -2,13 +2,17 @@ class Calculator:
 
 
 
-    def sum(self, a, b):
+    def sum(self, a : int, b : int):
+        if not (a.isdigit()) or not (b.isdigit()): return "Error 404"
+        if a > 0 and b > 0: return a+b
         pass
 
     def subs(self, a, b):
         pass
 
-    def mul(self, a, b):
+    def mul(self, a : int, b : int):
+        if not (a.isdigit()) or not (b.isdigit()): return "Error 404"
+        return a * b
         pass
 
     def div(self, a, b):

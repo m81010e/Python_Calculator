@@ -6,10 +6,10 @@ class Calculator:
         pass
 
     def subs(self, a, b):
-        pass
+        return a - b
 
     def mul(self, a, b):
         pass
 
     def div(self, a, b):
-        pass
+        return a / b
